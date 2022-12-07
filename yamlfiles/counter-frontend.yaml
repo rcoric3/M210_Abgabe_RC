@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: counter-frontend
-          image: ghcr.io/rcoric3/counter-frontend:v1
+          image: ghcr.io/diornextdoor/counter-frontend:v1
           ports:
             - containerPort: 3000
           env:

@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: counter-database
-          image: ghcr.io/rcoric3/counter-database:v1
+          image: ghcr.io/diornextdoor/counter-database:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 5432
