@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: zlic-rcoric1
+  name: counter-postgresadmin
+spec:
+  selector:
+    matchLabels:
+      app: counter-postgresadmin
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: counter-postgresadmin
+    spec:
+      containers:
+        - name: container
+          image:
+          ports:
+            - containerPort: 3200

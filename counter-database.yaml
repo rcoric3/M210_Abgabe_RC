@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: counter-database
+data:
+  database-name: Y291bnRlci1kYXRhYmFzZQ==
+  database-password: ZGF0YWJhc2VwYXNzd29yZQ==
+  database-user: ZGF0YWJhc2V1c2Vy
+type: Opaque
